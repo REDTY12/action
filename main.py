@@ -4,7 +4,7 @@ import os
 GITHUB_USERNAME = "REDTY12"
 DISCORD_APP_ID = "1514357681240932474"  
 DISCORD_USER_ID = "992332343115268146"
-BOT_TOKEN = os.environ["MTUxNDM1NzY4MTI0MDkzMjQ3NA.Ge3TTc.DqHm1uO86NqZPi6GP5kvirH72gsjF3-PwzHsa8"]  
+BOT_TOKEN = os.environ["BOT_TOKEN"]  
 
 # === 1. Берём кол-во репозиториев с GitHub ===
 gh_response = requests.get(f"https://api.github.com/users/{GITHUB_USERNAME}")
