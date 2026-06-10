@@ -11,14 +11,14 @@ gh_response = requests.get(f"https://api.github.com/users/{GITHUB_USERNAME}")
 repos_count = gh_response.json()["public_repos"]
 
 payload = {
-    "username": "ТвойНик",
+    "username": "scxry",
     "data": {
         "dynamic": [
-            { "type": 1, "name": "nickname", "value": "ТвойНик" },
-            { "type": 1, "name": "title", "value": "Junior Developer" },
+            { "type": 1, "name": "nickname", "value": "scxry" },
+            { "type": 1, "name": "title", "value": "API Developer" },
             { "type": 2, "name": "age", "value": 14 },
             { "type": 2, "name": "repos", "value": repos_count },
-            { "type": 1, "name": "website", "value": "твой-сайт.com" },
+            { "type": 1, "name": "website", "value": "scxry.xyz" },
             { "type": 1, "name": "language", "value": "Python" }
         ]
     }
